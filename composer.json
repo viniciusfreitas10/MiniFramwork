@@ -1,0 +1,17 @@
+{
+	"name":"minif1",
+	"requeire":{
+		"php":">= 7.0"
+	},
+	"authors":[
+		{"name":"Vinicius Freitas",
+		"email":"vinicius_freitas_dev@outlook.com"
+		}
+	],
+	"autoload":{
+		"psr-4":{
+			"app\\":"app/",
+			"MF\\":"vendor/MF/"
+		}
+	}
+}
